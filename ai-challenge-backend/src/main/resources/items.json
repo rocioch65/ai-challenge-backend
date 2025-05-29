@@ -1,0 +1,35 @@
+[
+  {
+    "id": "1",
+    "title": "Smartphone X200",
+    "description": "Último modelo con cámara de 108MP",
+    "price": 1999999,
+    "paymentMethods": ["Tarjeta crédito", "PSE", "Contra entrega"],
+    "seller": {
+      "name": "TechWorld",
+      "rating": 4.8
+    },
+    "stock": 12,
+    "images": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_703669-MCO81387074564_122024-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_973659-MCO81387945862_122024-F.webp"
+    ]
+  },
+  {
+    "id": "123",
+    "title": "Smartphone Samsung Galaxy S21",
+    "description": "Pantalla AMOLED, cámara triple, 128GB.",
+    "price": 999.99,
+    "paymentMethods": ["Efectivo", "Tarjeta", "Cuotas"],
+    "seller": {
+      "name": "Tienda Oficial Samsung",
+      "rating": 4.8
+    },
+    "stock": 25,
+    "images": [
+      "https://http2.mlstatic.com/D_NQ_NP_688759-MCO83155947635_032025-O.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_788511-MCO83155947645_032025-O.webp"
+    ]
+  }
+
+]
