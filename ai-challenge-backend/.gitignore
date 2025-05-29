@@ -1,0 +1,34 @@
+# Build outputs
+/build/
+out/
+bin/
+.gradle/
+
+# IDEs
+*.iml
+.idea/
+.vscode/
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Test reports and coverage
+/test-results/
+jacoco.exec
+*.ec
+*.coverage
+*.coveragedata
+*.lcov
+*.html
+
+# Temporary
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# IntelliJ cache
+*.iws
+*.ipr
