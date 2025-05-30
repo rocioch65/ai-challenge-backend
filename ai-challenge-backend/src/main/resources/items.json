@@ -3,7 +3,7 @@
     "id": "1",
     "title": "Smartphone X200",
     "description": "Último modelo con cámara de 108MP",
-    "price": 1999999,
+    "price": 1999,
     "paymentMethods": ["Tarjeta crédito", "PSE", "Contra entrega"],
     "seller": {
       "name": "TechWorld",
@@ -30,6 +30,262 @@
       "https://http2.mlstatic.com/D_NQ_NP_688759-MCO83155947635_032025-O.webp",
       "https://http2.mlstatic.com/D_NQ_NP_788511-MCO83155947645_032025-O.webp"
     ]
+  },
+  {
+    "id": "2",
+    "title": "Audífonos Inalámbricos Pro",
+    "description": "Cancelación activa de ruido y estuche de carga rápida.",
+    "price": 149.99,
+    "paymentMethods": ["Tarjeta", "PSE"],
+    "seller": {
+      "name": "AudioMax",
+      "rating": 4.3
+    },
+    "stock": 3,
+    "images": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_832268-MLU72931771705_112023-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_843983-MLU72854929244_112023-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_718084-MLA80847644695_112024-F.webp"
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Laptop Ultra Slim 14”",
+    "description": "8GB RAM, 512GB SSD, ideal para trabajo remoto.",
+    "price": 799.00,
+    "paymentMethods": ["Tarjeta", "Efectivo"],
+    "seller": {
+      "name": "CompuExpress",
+      "rating": 4.7
+    },
+    "stock": 10,
+    "images": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_925116-MLU78169871477_082024-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_780432-MLU76223208894_052024-F.webp"
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Teclado Mecánico RGB",
+    "description": "Teclado gamer con switches azules.",
+    "price": 89.99,
+    "paymentMethods": ["Contra entrega", "Tarjeta"],
+    "seller": {
+      "name": "GamerZone",
+      "rating": 3.9
+    },
+    "stock": 15,
+    "images": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_674064-MLU73503205759_122023-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_742169-MLU73411931788_122023-F.webp"
+    ]
+  },
+  {
+    "id": "5",
+    "title": "Mouse Ergonómico Inalámbrico",
+    "description": "Diseño ergonómico con batería recargable.",
+    "price": 39.95,
+    "paymentMethods": ["PSE", "Cuotas"],
+    "seller": {
+      "name": "OfficeTech",
+      "rating": 4.1
+    },
+    "stock": 8,
+    "images": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_735000-MLU75149331050_032024-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_686569-MLU79083098639_092024-F.webp"
+    ]
+  },
+  {
+    "id": "6",
+    "title": "Monitor 24” Full HD",
+    "description": "Panel IPS con 75Hz para mejor experiencia visual.",
+    "price": 179.99,
+    "paymentMethods": ["Tarjeta", "Efectivo"],
+    "seller": {
+      "name": "VisualWorld",
+      "rating": 4.6
+    },
+    "stock": 0,
+    "images": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_935664-MLA84550501334_052025-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_768905-MLA84550530972_052025-F.webp"
+    ]
+  },
+  {
+    "id": "7",
+    "title": "Tablet 10” WiFi 64GB",
+    "description": "Ideal para entretenimiento y estudio.",
+    "price": 210.00,
+    "paymentMethods": ["Tarjeta", "PSE"],
+    "seller": {
+      "name": "DigitalMarket",
+      "rating": 4.2
+    },
+    "stock": 2,
+    "images": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_623054-MLU78770196248_092024-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_900864-MLU75274685603_032024-F.webp"
+    ]
+  },
+  {
+    "id": "8",
+    "title": "Cámara de Seguridad WiFi",
+    "description": "Monitoreo 24/7 con detección de movimiento.",
+    "price": 55.50,
+    "paymentMethods": ["Contra entrega"],
+    "seller": {
+      "name": "SegurTech",
+      "rating": 3.7
+    },
+    "stock": 6,
+    "images": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_901361-MLU78557254725_082024-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_817708-MLU77733630643_072024-F.webp"
+    ]
+  },
+  {
+    "id": "9",
+    "title": "Batería Externa 20,000mAh",
+    "description": "Carga rápida para smartphones y tablets.",
+    "price": 25.00,
+    "paymentMethods": ["PSE", "Cuotas"],
+    "seller": {
+      "name": "EnergyPlus",
+      "rating": 4.0
+    },
+    "stock": 0,
+    "images": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_771670-MLU74825659745_022024-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_990518-MLA82987737275_032025-F.webp"
+    ]
+  },
+  {
+    "id": "10",
+    "title": "Reloj Inteligente Deportivo",
+    "description": "Medición de ritmo cardíaco, oxígeno y pasos.",
+    "price": 69.90,
+    "paymentMethods": ["Tarjeta", "Efectivo"],
+    "seller": {
+      "name": "FitLife",
+      "rating": 3.5
+    },
+    "stock": 20,
+    "images": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_647830-MLA80450748765_112024-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_726116-MLA80450797517_112024-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_930776-MLA80450719345_112024-F.webp"
+    ]
+  },
+  {
+    "id": "11",
+    "title": "Impresora Multifuncional WiFi",
+    "description": "Escáner, copiado e impresión desde celular.",
+    "price": 120.00,
+    "paymentMethods": ["Tarjeta crédito", "Cuotas"],
+    "seller": {
+      "name": "PrintZone",
+      "rating": 4.4
+    },
+    "stock": 4,
+    "images": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_829494-MLU70483663530_072023-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_839242-MLU73763083623_012024-F.webp"
+    ]
+  },
+  {
+    "id": "12",
+    "title": "Parlante Bluetooth Portátil",
+    "description": "Sonido envolvente y resistente al agua.",
+    "price": 45.50,
+    "paymentMethods": ["Efectivo", "Tarjeta"],
+    "seller": {
+      "name": "AudioBoom",
+      "rating": 4.9
+    },
+    "stock": 18,
+    "images": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_826614-MLU70610010768_072023-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_902643-MLU75110716358_032024-F.webp"
+    ]
+  },
+  {
+    "id": "13",
+    "title": "Silla Gamer Ergonómica",
+    "description": "Apoyo lumbar, reclinable, diseño cómodo.",
+    "price": 250.00,
+    "paymentMethods": ["Cuotas", "PSE"],
+    "seller": {
+      "name": "ErgoTech",
+      "rating": 3.2
+    },
+    "stock": 5,
+    "images": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_929775-MLU74983380438_032024-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_933530-MLU75124245665_032024-F.webp"
+    ]
+  },
+  {
+    "id": "14",
+    "title": "Disco Duro Externo 1TB",
+    "description": "USB 3.0, alta velocidad de transferencia.",
+    "price": 65.75,
+    "paymentMethods": ["Tarjeta"],
+    "seller": {
+      "name": "StoragePro",
+      "rating": 4.0
+    },
+    "stock": 9,
+    "images": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_883196-MLU78315430810_082024-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_693465-MLU75591897599_042024-F.webp"
+    ]
+  },
+  {
+    "id": "15",
+    "title": "Consola de Videojuegos 2024",
+    "description": "Última generación con gráficos 4K y 1TB de almacenamiento.",
+    "price": 499.99,
+    "paymentMethods": ["Tarjeta", "PSE", "Cuotas"],
+    "seller": {
+      "name": "PlayNow",
+      "rating": 5.0
+    },
+    "stock": 7,
+    "images": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_924532-MCO71241513526_082023-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_897326-MCO71283087475_082023-F.webp"
+    ]
+  },
+  {
+    "id": "16",
+    "title": "Router WiFi de Alta Velocidad",
+    "description": "Cobertura de hasta 300m2 y doble banda.",
+    "price": 80.00,
+    "paymentMethods": ["Tarjeta", "Efectivo"],
+    "seller": {
+      "name": "NetMaster",
+      "rating": 2.8
+    },
+    "stock": 14,
+    "images": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_974770-MLU72030289207_092023-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_867435-MLU73668785548_012024-F.webp"
+    ]
+  },
+  {
+    "id": "17",
+    "title": "Webcam Full HD 1080p",
+    "description": "Ideal para videollamadas y streaming.",
+    "price": 35.00,
+    "paymentMethods": ["Tarjeta", "Contra entrega"],
+    "seller": {
+      "name": "StreamTech",
+      "rating": 3.0
+    },
+    "stock": 1,
+    "images": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_743864-MLA84849924019_052025-F.webp"
+    ]
   }
-
 ]
