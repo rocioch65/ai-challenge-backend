@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import Header from '../components/Header';
 import Layout from '../components/Layout';
+import { API_URL } from '../config/api';
 
 const ItemDetail = () => {
   const [item, setItem] = useState(null);
@@ -19,7 +20,7 @@ const ItemDetail = () => {
 
   const handleSearch = async (query) => {
     try {
-      const response = await fetch(`/api/items?query=${encodeURIComponent(query)}`);
+      const response = await fetch(`${API_URL}/api/items?query=${encodeURIComponent(query)}`);
       const data = await response.json();
       localStorage.setItem('lastSearchResults', JSON.stringify(data));
       localStorage.setItem('lastSearchTerm', query);

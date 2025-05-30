@@ -3,6 +3,7 @@ import Header from '../components/Header';
 import Layout from '../components/Layout';
 import ItemCard from '../components/ItemCard';
 import EmptyResultMessage from '../components/EmptyResultMessage';
+import { API_URL } from '../config/api';
 
 const HomePage = () => {
   const [items, setItems] = useState([]);
@@ -27,7 +28,7 @@ const HomePage = () => {
     setItems([]);
 
     try {
-      const response = await fetch(`/api/items?query=${encodeURIComponent(query)}`);
+      const response = await fetch(`${API_URL}/api/items?query=${encodeURIComponent(query)}`);
       if (!response.ok) {
         const errorData = await response.json();
         if (errorData.code === 'ITEM_NOT_FOUND') {
