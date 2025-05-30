@@ -1,0 +1,150 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "MercadoLibre Item Detail API",
+    "description": "API para consultar productos tipo MercadoLibre",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:8080"
+    }
+  ],
+  "paths": {
+    "/api/items": {
+      "get": {
+        "summary": "Buscar productos",
+        "description": "Devuelve una lista de productos que coinciden con el término de búsqueda.",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "query",
+            "schema": {
+              "type": "string"
+            },
+            "required": true,
+            "description": "Palabra clave para buscar productos (por ejemplo, \"smartphone\")."
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Lista de productos encontrada",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Product"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Solicitud inválida",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorInvalidRequest"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Producto no encontrado",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorItemNotFound"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Product": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "example": "1"
+          },
+          "title": {
+            "type": "string",
+            "example": "Smartphone X200"
+          },
+          "description": {
+            "type": "string",
+            "example": "Último modelo con cámara de 108MP"
+          },
+          "price": {
+            "type": "number",
+            "example": 1999999
+          },
+          "paymentMethods": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "example": "Tarjeta crédito"
+            }
+          },
+          "seller": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string",
+                "example": "TechWorld"
+              },
+              "rating": {
+                "type": "number",
+                "example": 4.8
+              }
+            }
+          },
+          "stock": {
+            "type": "integer",
+            "example": 12
+          },
+          "images": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "format": "uri",
+              "example": "https://http2.mlstatic.com/D_NQ_NP_2X_703669-MCO81387074564_122024-F.webp"
+            }
+          }
+        }
+      },
+      "ErrorItemNotFound": {
+        "type": "object",
+        "properties": {
+          "code": {
+            "type": "string",
+            "example": "ITEM_NOT_FOUND"
+          },
+          "message": {
+            "type": "string",
+            "example": "El ítem no fue encontrado"
+          }
+        }
+      },
+      "ErrorInvalidRequest": {
+        "type": "object",
+        "properties": {
+          "code": {
+            "type": "string",
+            "example": "INVALID_REQUEST"
+          },
+          "message": {
+            "type": "string",
+            "example": "La solicitud no es válida"
+          }
+        }
+      }
+    }
+  }
+}
