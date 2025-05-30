@@ -1,19 +1,18 @@
+// src/App.js
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import HomePage from './pages/HomePage.js';
+import { Routes, Route } from 'react-router-dom';
+import HomePage from './pages/HomePage';
 import ItemDetail from './pages/ItemDetail';
 
-function App() {
+function AppRoutes() {
   return (
-    <Router>
-      <div className="min-h-screen bg-gray-50 text-gray-800">
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/detalle" element={<ItemDetail />} />
-        </Routes>
-      </div>
-    </Router>
+    <div className="min-h-screen bg-gray-50 text-gray-800">
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/detalle" element={<ItemDetail />} />
+      </Routes>
+    </div>
   );
 }
 
-export default App;
+export default AppRoutes;

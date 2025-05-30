@@ -53,7 +53,7 @@ const ItemCard = ({ item, isFirst = false }) => {
             </p>
             <p className="text-lg font-bold text-gray-900 mb-1">${item.price}</p>
 
-            {item.price > 999 ? (
+            {item.price > 100 ? (
               <div className="inline-flex items-center gap-1 bg-green-100 text-green-700 text-xs font-bold px-2 py-1 rounded">
                 Enviado por <MdFlashOn size={14} className="text-green-600" />  FULL
               </div>
