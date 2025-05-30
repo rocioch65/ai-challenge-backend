@@ -1,0 +1,26 @@
+services:
+  backend:
+    build:
+      context: ./ai-challenge-backend
+    container_name: java-backend
+    ports:
+      - "8080:8080"
+    networks:
+      - app-network
+
+  frontend:
+    build:
+      context: ./ai-challenge-frontend
+      args:
+        REACT_APP_API_URL: http://java-backend:8080
+    container_name: react-frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
